@@ -18,8 +18,8 @@ body {
   background-color: var(--white-background-color);
 }
 
-/*------------- navigation styles ----------------*/
-.logo-header .link {
+/*------------- logo styles ----------------*/
+.logo .link {
   font-family: raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -33,10 +33,15 @@ body {
   text-decoration: none;
 }
 
-.logo-header .partlogo {
+.logo .part-logo-up {
   color: var(--logo-header-color);
 }
 
+.logo .part-logo-down {
+  color: var(--footer-text-color);
+}
+
+/*------------- navigation styles ----------------*/
 .navigation-list a {
   font-weight: 500;
   font-size: 16px;
@@ -69,20 +74,6 @@ body {
 
 .footer-space {
   background: var(--main-background-color);
-}
-
-.logo-footer .logo-link {
-  font-family: "raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--button-normal-color);
-}
-
-.logo-footer .partlogo {
-  color: var(--footer-text-color);
 }
 
 .footer-about {
