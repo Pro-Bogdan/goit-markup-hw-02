@@ -12,17 +12,17 @@
 
 /* global styles */
 body {
-  font-family: "roboto", sans-serif;
+  font-family: 'roboto', sans-serif;
   color: #434455;
   background-color: var(--white-background-color);
 }
 
 /*------------- navigation styles ----------------*/
 .logo-header .logo-link {
-  font-family: "raleway", sans-serif;
+  font-family: 'raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-normal-color);
