@@ -1,6 +1,7 @@
 :root {
   --white-background-color: #ffffff;
   --nav-color: #2e2f42;
+  --logo-main-color: #4d5ae5;
   --logo-header-color: #2e2f42;
   --linkhover-color: #404bbf;
   --footer-text-color: #f4f4fd;
@@ -12,22 +13,25 @@
 
 /* global styles */
 body {
-  font-family: 'roboto', sans-serif;
+  font-family: roboto, sans-serif;
   color: #434455;
   background-color: var(--white-background-color);
 }
 
 /*------------- navigation styles ----------------*/
 .logo-header {
-  font-family: raleway,sans-serif;
+  font-family: raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--button-normal-color);
+  color: var(--logo-main-color);
 }
 
+.link-logo {
+  text-decoration: none;
+}
 
 .logo-header .partlogo {
   color: var(--logo-header-color);
