@@ -19,7 +19,7 @@ body {
 }
 
 /*------------- logo styles ----------------*/
-.logo .link {
+.logo-main .link {
   font-family: raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -33,11 +33,11 @@ body {
   text-decoration: none;
 }
 
-.logo .part-logo-up {
+.logo-main .part-logo-up {
   color: var(--logo-header-color);
 }
 
-.logo .part-logo-down {
+.logo-main .part-logo-down {
   color: var(--footer-text-color);
 }
 
