@@ -1,7 +1,7 @@
 :root {
-  --white-background-color:#FFFFFF;
+  --white-background-color: #ffffff;
   --nav-color: #2e2f42;
-  --partlogo-color: #4d5ae5;
+  --logo-header-color: #2e2f42;
   --linkhover-color: #404bbf;
   --footer-text-color: #f4f4fd;
   --main-title-color: #2e2f42;
@@ -12,22 +12,27 @@
 
 /* global styles */
 body {
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
   color: #434455;
   background-color: var(--white-background-color);
 }
 
 /*------------- navigation styles ----------------*/
-.logo-header {
+.logo-header .logo-link {
   font-family: "raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.6;
-  text-decoration: none;
-  color: var(--nav-color);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-normal-color);
 }
-.partlogo {
-  color: var(--partlogo-color);
+
+.logo-link {
+  text-decoration: none;
+}
+.logo-header .partlogo {
+  color: var(--logo-header-color);
 }
 
 .navigation-list a {
@@ -64,12 +69,17 @@ body {
   background: var(--main-background-color);
 }
 
-.logo-footer {
+.logo-footer .logo-link {
   font-family: "raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.6;
-  text-decoration: none;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-normal-color);
+}
+
+.logo-footer .partlogo {
   color: var(--footer-text-color);
 }
 
