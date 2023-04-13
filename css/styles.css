@@ -18,8 +18,8 @@ body {
 }
 
 /*------------- navigation styles ----------------*/
-.logo-header .logo-link {
-  font-family: "Raleway",sans-serif;
+.logo-header {
+  font-family: raleway,sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -28,9 +28,7 @@ body {
   color: var(--button-normal-color);
 }
 
-.logo-link {
-  text-decoration: none;
-}
+
 .logo-header .partlogo {
   color: var(--logo-header-color);
 }
