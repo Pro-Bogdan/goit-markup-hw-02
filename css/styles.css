@@ -1,4 +1,5 @@
 :root {
+  --white-background-color:#FFFFFF;
   --nav-color: #2e2f42;
   --partlogo-color: #4d5ae5;
   --linkhover-color: #404bbf;
@@ -11,9 +12,9 @@
 
 /* global styles */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'roboto', sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: var(--white-background-color);
 }
 
 /*------------- navigation styles ----------------*/
