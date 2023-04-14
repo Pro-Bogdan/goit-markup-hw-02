@@ -183,18 +183,20 @@ body {
 
 /* <!-- filter buttons --> */
 
-.buttons-list button {
-  cursor: pointer;
+.button-item {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--button-normal-color);
-  background: #f4f4fd;
+  background-color: var(--footer-text-color);
+  cursor: pointer;
 }
 
-.buttons-list button:hover,
-.buttons-list button:focus {
-  background: var(--button-hover-color);
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--button-hover-color);
   color: #ffffff;
 }
 
