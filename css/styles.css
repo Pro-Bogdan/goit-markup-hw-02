@@ -1,15 +1,20 @@
 :root {
+  /* background color */
   --background-color: #ffffff;
-  --main-title-color: #2e2f42;
-  --main-background-color: #2e2f42;
-  --nav-color: #2e2f42;
-  --footer-text-color: #f4f4fd;
+  --background-section-color: #2e2f42;
 
+  /* text color */
+  --main-title-color: #2e2f42;
+  --text-description-color: #434455;
+  --footer-text-color: #f4f4fd;
+  --nav-color: #2e2f42;
+
+  /* logo color */
   --logo-main-color: #4d5ae5;
   --logo-header-color: #2e2f42;
 
+  /* link and button color */
   --linkhover-color: #404bbf;
-
   --button-normal-color: #4d5ae5;
   --button-hover-color: #404bbf;
 }
@@ -47,6 +52,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text-description-color);
 }
 
 /*------------- logo styles ----------------*/
@@ -69,40 +75,38 @@ body {
 }
 
 /* -------------header------------------------- */
-
 /*------------- navigation styles ----------------*/
-.navigation-list a {
+.menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-decoration: none;
+  letter-spacing: 0.02em;
   color: var(--nav-color);
 }
 
-.address-list {
+.address {
   font-style: normal;
 }
 
-.address-list a {
-  font-weight: 400;
+.address-item {
   font-size: 16px;
   line-height: 1.5;
-  text-decoration: none;
-  color: #434455;
+  letter-spacing: 0.02em;
+  color: var(--text-description-color);
 }
 
 /* hover and focus */
-.navigation-list a:hover,
-.navigation-list a:focus,
-.address-list a:hover,
-.address-list a:focus {
+.menu-item:hover,
+.menu-item:focus,
+.address-item:hover,
+.address-item:focus {
   color: var(--linkhover-color);
 }
 
-/*---------- footer styles-------------------- */
+/*------------footer styles------------------- */
 
 .footer-space {
-  background: var(--main-background-color);
+  background: var(--background-section-color);
 }
 
 .footer-about {
@@ -115,7 +119,7 @@ body {
 /* -----------PAGE index-------------------- */
 /* ----hero----- */
 .section-hero {
-  background: var(--main-background-color);
+  background: var(--background-section-color);
 }
 
 .hero-title {
@@ -195,16 +199,3 @@ body {
 }
 
 /* <!-- list of the projects --> */
-
-.project-list h2 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--main-title-color);
-}
-
-.project-list p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-}
