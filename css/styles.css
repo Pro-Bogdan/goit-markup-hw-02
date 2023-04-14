@@ -1,8 +1,10 @@
 :root {
   --white-background-color: #ffffff;
   --nav-color: #2e2f42;
+
   --logo-main-color: #4d5ae5;
   --logo-header-color: #2e2f42;
+  
   --linkhover-color: #404bbf;
   --footer-text-color: #f4f4fd;
   --main-title-color: #2e2f42;
@@ -13,13 +15,17 @@
 
 /* global styles */
 body {
-  font-family: roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   color: #434455;
   background-color: var(--white-background-color);
 }
 
+.link {
+  text-decoration: none;
+}
+
 /*------------- logo styles ----------------*/
-.logo-main .link {
+.logo{
   font-family: raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -29,15 +35,11 @@ body {
   color: var(--logo-main-color);
 }
 
-.link {
-  text-decoration: none;
-}
-
-.logo-main .part-logo-up {
+.logo .part-logo-up {
   color: var(--logo-header-color);
 }
 
-.logo-main .part-logo-down {
+.logo .part-logo-down {
   color: var(--footer-text-color);
 }
 
